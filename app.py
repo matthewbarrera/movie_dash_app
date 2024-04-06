@@ -119,6 +119,7 @@ row3_child2_rangeSlider = dcc.RangeSlider(id = "row3_rangeslider",
 '''
                                           
 app = dash.Dash(__name__)
+server = app.server
 
 # X is made here
 max_length = -1
